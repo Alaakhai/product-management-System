@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PRUDACT MANAGEMENT SYSTEM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    
+</head>
+<body class="dark_mode white_mode">
+  <div class="crud">
+    <button class="dark_button">dark mode</button>
+    <div class="header">
+        <h2>product management System</h2>
+   </div>
+    <div class="input">
+        <input type="text" placeholder="title" id="title">
+        <div class="input_num"> 
+            <input onkeyup="getTotal()" type="number" placeholder="price" id="price">
+            <input onkeyup="getTotal()" type="number" placeholder="texces" id="texces">
+            <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+            <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
+            <small id="total"></small>
+        </div>
+       
+        <input type="number" placeholder="count" id="count">
+        <input type="text" placeholder="catigory" id="catigory">
+        <button id="creat_bt">create</button>
+    </div>
+    <div class="output">
+        <div class="searchblock">
+            <input onkeyup="searchdata(this.value)" type="text" id="search" placeholder="search">
+            <div class="button_search">
+                <button onclick="getSearchMood(this.id)" id="SearchByTitle">Search By Title</button>
+                <button onclick="getSearchMood(this.id)" id="SearchByCategory">Search By Category</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="deletall"></div>
+    <table >
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>text</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>total</th>
+            <th>catigory</th>
+            <th>update</th>
+            <th>delete</th>
+        </tr>
+       <tbody class="table">
+     
+      
+       </tbody>
+    </table>
+  </div>  
+  <footer>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+            </a>
+        </p>
+  </footer>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
