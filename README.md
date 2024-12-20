@@ -28,9 +28,6 @@ The Product Management System is designed to streamline the process of managing 
 Once the project is running locally, you can explore the features and functionalities:
 
 - **Manage Products**: Add, update, and delete products from the inventory.
-- **Track Sales**: Record sales transactions and generate sales reports.
-- **Analyze Performance**: Access performance analytics and insights.
-
 
 ## To view the site :
 [click here](https://alaakhai.github.io/product-management-System/)
