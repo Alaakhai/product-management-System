@@ -37,4 +37,4 @@ Once the project is running locally, you can explore the features and functional
 If you have any questions or would like to get in touch, feel free to reach out to me via:
 - **GitHub**: [my GitHub Profile](https://github.com/Alaakhai)
 
-Thank you for visiting the Climate System project!
+Thank you for visiting my project!
