@@ -12,9 +12,6 @@ The Product Management System is designed to streamline the process of managing 
 ## Features
 
 - **Inventory Management**: Add, update, and delete products.
-- **Sales Tracking**: Track sales and generate sales reports.
-- **Performance Analytics**: Analyze product performance and generate insights.
-- **User Management**: Manage user accounts and permissions.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Technologies Used
